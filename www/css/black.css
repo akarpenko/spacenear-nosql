@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  background-image: url('atmosphere.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  color: white;
+}
+
+.vehicle_box {
+  float:left;
+  width: 220px;
+  border: solid gray 1px;
+  background-color: #333;
+  margin-top: 10px;
+}
+
+.picture_info td {
+  color: black;
+}
+
+.mission_name {
+  color: #229;
+}
+
+.mission_group {
+  color: #44B;
+}

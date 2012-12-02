@@ -1,0 +1,264 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, em, img, ins, strong, sub, sup, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border:0pt none;
+  margin:0pt;
+  padding:0pt;
+}
+
+body {
+  /*
+  background-color: black;
+  color: white;
+  background-image: url('http://i21.tinypic.com/2r40b9j.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  margin: 0;
+  */
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande",Verdana,Arial;
+}
+
+.mission_name {
+  font-family: Helvetica,"Lucida Grande",Verdana,Arial;
+  color: #888;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.mission_info {
+  font-family: Helvetica,"Lucida Grande",Verdana,Arial;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+a:link,a:visited,a:active,a:hover {
+  text-decoration: none;
+}
+
+h3 {
+  border-bottom:1px solid #EEEEEE;
+  color:#7389AE;
+  font-size:15px;
+  margin-bottom:7px;
+  padding-bottom:3px;
+}
+
+h2 {
+  border-bottom:1px solid #EEEEEE;
+  color:#7389AE;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom:3px;
+  margin-bottom:10px;
+}
+
+
+p {
+  font-family: "Lucida Grande",Verdana,Arial;
+  font-size: 10pt;
+}
+
+.info_box {
+}
+
+#log {
+	float: left;
+	padding: 0.5em;
+	margin-left: 10px;
+	width: 290px;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	margin-top: 10px;
+}
+
+.status_box {
+  border: 1px solid #d6d6d6;
+  font-family: "Lucida Grande",Verdana,Arial;
+  font-size: 8pt;
+  height: 20px;
+}
+
+.status_box img {
+  vertical-align: middle;
+}
+
+#status_bar {
+	color: gray;
+	padding: 2px;
+  float: left;
+}
+
+#status_bar.ajax_loading {
+	background: url(spinner.gif) no-repeat center;
+}
+
+#link_bar {
+  padding: 2px;
+  float: right;
+}
+
+#debug_box {
+  display: none;
+}
+
+.altitude_container {
+  float:left;
+  width: 16px;
+  height: 98px;
+  background: url(alt.gif);
+}
+
+.altitude {
+  width: 16px;
+  background-color: blue;
+  filter:alpha(opacity=50);
+  opacity: 0.5;
+  -moz-opacity:0.5;
+}
+
+.vehicle_info_wrapper {
+}
+
+.vehicle_info {
+  padding: 0px;
+  margin: 4px;
+  float:left;
+  width: 196px;
+  font-family: "Lucida Grande",Verdana,Arial;
+  font-size: 9px;
+  min-height: 84px;
+  
+  /*height: 90px;*/
+}
+
+.vehicle_box {
+  float:left;
+  width: 220px;
+  border: solid #ccc 1px;
+  /* background-color: #fcfcfc; */
+  background: url(alt2.gif);
+  background-repeat:repeat-y;
+  margin-top: 10px;
+}
+
+.vehicle_buttons {
+	border: solid #ccc 1px;
+  background-color: #eee;
+  padding: 2px;
+  margin-top: 4px;
+  float: left;
+  color: #888;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	cursor: default;
+}
+
+.vehicle_button {
+	font-weight: bold;
+	color: #888;
+  cursor: pointer;
+}
+
+.vehicle_button:hover {
+	color: black;
+}
+
+.vehicle_button_enabled {
+	color: #333;
+}
+
+
+#map_container {
+	height: 500px;
+}
+
+#vehicle_container {
+}
+
+#header {
+  margin: 25px 25px 10px 25px;
+}
+
+#content {
+  margin: 0px 257px 0px 25px;
+  border: 1px solid gray;
+  padding: 0px;
+  background-color: #ffffff; 
+}
+
+#tabs {
+}
+
+.tracker_heading {
+  margin: 0px 257px 0px 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#left {
+  position: absolute;
+  left: 0px;
+  width: 25px;
+  margin: 0px; 
+  padding: 0px;
+}
+
+#right {
+  position: absolute;
+  right: 0px;        
+  width: 222px;
+  margin: 0px 25px 10px 10px; 
+  padding: 0px;
+  height:100%;
+}
+
+#footer {
+  margin: 10px 25px 10px 25px;
+  margin-right: 257px;
+}
+
+#scroll_pane {
+  width:100%;
+  height: 178px;
+  background-color: gray;
+  overflow: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+  background-image: url('scroll-back.png');
+  margin: 0;
+  padding: 0;
+}
+
+.picture_info td {
+  font-family: "Lucida Grande",Verdana,Arial;
+  font-size: 9px;
+  border-right: 1px solid #ccc;
+}
+
+#picture_table {
+  _margin-top: -6px; /* IE fix */
+}
+
+#picture_table td {
+  padding: 0 2px 0 2px;
+  padding-top: 2px;
+}
+
+#twitter_div {
+  margin-top: 10px;
+  float: left;
+  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+  font-size: 11px;
+}
+
+#twitter_div ul {
+  list-style-type: none;
+}
+
+#twitter_div li {
+}
+
